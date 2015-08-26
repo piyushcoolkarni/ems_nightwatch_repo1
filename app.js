@@ -18,7 +18,7 @@ app.use(express.static(__dirname+'/html'));
 
 
 var dbName = 'test';
-var connectionString = 'mongodb://localhost/' + dbName;
+var connectionString = 'mongodb://172.27.59.81/' + dbName;
  mongoose.connect(connectionString);
 
 module.exports = app;
