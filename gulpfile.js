@@ -64,4 +64,4 @@ return gulp.src('nightwatch.js')
 });
 
 
-gulp.task('default',['test','mocha','nightwatch','lint'],function(){});
+gulp.task('default',['test','mocha','lint'],function(){});
